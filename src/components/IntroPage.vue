@@ -29,7 +29,7 @@ defineEmits(['start'])
           </div>
           <div class="info-divider"></div>
           <div class="info-item">
-            <span class="info-num">25</span>
+            <span class="info-num">77</span>
             <span class="info-label">干员人格</span>
           </div>
           <div class="info-divider"></div>
