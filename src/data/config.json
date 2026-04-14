@@ -1,0 +1,24 @@
+{
+  "scoring": {
+    "levelThresholds": {
+      "L": [2, 3],
+      "M": [4, 4],
+      "H": [5, 6]
+    },
+    "levelNumeric": { "L": 1, "M": 2, "H": 3 },
+    "maxDistance": 30,
+    "fallbackThreshold": 55
+  },
+  "display": {
+    "title": "R6TI 战术人格测试",
+    "subtitle": "你的灵魂里住着哪位干员？",
+    "credit": "基于 SBTI 算法 · 彩虹六号干员性格分析",
+    "funNote": "本测试仅供娱乐，别拿它当排位选人依据、队友甄别手册或开除出队的理由。",
+    "funNoteSpecial": "本测试仅供娱乐。隐藏干员和新兵兜底都是彩蛋，别太当真。不过话说回来，也许这就是真实的你？"
+  },
+  "commandGate": {
+    "questionId": "cmd_gate_q1",
+    "triggerValue": 3,
+    "sixTriggerValue": 2
+  }
+}
