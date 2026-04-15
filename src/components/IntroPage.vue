@@ -24,7 +24,7 @@ defineEmits(['start'])
       <div class="intro-info">
         <div class="info-grid">
           <div class="info-item">
-            <span class="info-num">30</span>
+            <span class="info-num">32</span>
             <span class="info-label">战术问题</span>
           </div>
           <div class="info-divider"></div>
