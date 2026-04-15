@@ -10,11 +10,13 @@ const emit = defineEmits(['complete'])
 
 const cmdGateQ1 = props.questions.special.find((q) => q.id === props.config.commandGate.questionId)
 const cmdGateQ2 = props.questions.special.find((q) => q.id === 'cmd_gate_q2')
+const recruitTrapQ = props.questions.special.find((q) => q.id === 'recruit_trap_q')
 
-const queue = ref(insertAtRandom(shuffle(props.questions.main), cmdGateQ1))
+const queue = ref(insertAtRandom(insertAtRandom(shuffle(props.questions.main), cmdGateQ1), recruitTrapQ))
 const current = ref(0)
 const answers = ref({})
 const isSix = ref(false)
+const isRecruit = ref(false)
 const transitioning = ref(false)
 
 const totalCount = computed(() => queue.value.length)
@@ -38,20 +40,26 @@ function selectOption(question, option) {
     isSix.value = true
   }
 
+  // 厕所题：选了无所谓，直接标记 RECRUIT
+  if (question.id === 'recruit_trap_q' && option.recruit) {
+    isRecruit.value = true
+  }
+
   setTimeout(() => {
     current.value++
     if (current.value >= totalCount.value) {
-      emit('complete', answers.value, isSix.value)
+      emit('complete', answers.value, isSix.value, isRecruit.value)
     }
     transitioning.value = false
   }, 200)
 }
 
 function restart() {
-  queue.value = insertAtRandom(shuffle(props.questions.main), cmdGateQ1)
+  queue.value = insertAtRandom(insertAtRandom(shuffle(props.questions.main), cmdGateQ1), recruitTrapQ)
   current.value = 0
   answers.value = {}
   isSix.value = false
+  isRecruit.value = false
 }
 
 defineExpose({ restart })

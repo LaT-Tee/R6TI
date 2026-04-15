@@ -18,12 +18,13 @@ function onStart() {
   window.scrollTo(0, 0)
 }
 
-function onQuizComplete(answers, isSix) {
+function onQuizComplete(answers, isSix, isRecruit) {
   const scores = calcDimensionScores(answers, questions.main)
   const levels = scoresToLevels(scores, config.scoring.levelThresholds)
   const affinityBonuses = calcAffinityBonuses(answers)
   const res = determineResult(levels, dimensions.order, types.standard, types.special, {
     isSix,
+    isRecruit,
     affinityBonuses,
     fallbackThreshold: config.scoring.fallbackThreshold,
   })

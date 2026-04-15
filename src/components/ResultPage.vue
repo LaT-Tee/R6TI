@@ -16,6 +16,7 @@ const LEVEL_CLASS = { L: 'level-low', M: 'level-mid', H: 'level-high' }
 const kicker = computed(() => {
   if (props.result.mode === 'six') return '隐藏人格已激活'
   if (props.result.mode === 'fallback') return '系统强制兜底'
+  if (props.result.mode === 'recruit_trap') return '人格认定成功'
   return '你的干员人格'
 })
 
@@ -24,9 +25,11 @@ const secondary = computed(() => props.result.secondary)
 const showSecondary = computed(() =>
   props.result.secondary && (props.result.mode === 'six' || props.result.mode === 'fallback')
 )
+
 const top5 = computed(() => props.result.rankings.slice(0, 5))
 
 const badgeText = computed(() => {
+  if (props.result.mode === 'recruit_trap') return '无所谓 · 就这了'
   const p = primary.value
   let text = `匹配度 ${p.similarity}%`
   if (p.exact != null) text += ` · 精准命中 ${p.exact}/15 维`

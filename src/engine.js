@@ -74,64 +74,64 @@ export function calcAffinityBonuses(answers) {
 
   // 前线突击手 → 突击类干员加成
   if (cmdGateChoice === 1) {
-    bonuses['ASH'] = -4
-    bonuses['FUZE'] = -3
-    bonuses['SLEDGE'] = -2
-    bonuses['ZOFIA'] = -2
-    bonuses['RAM'] = -2
-    bonuses['AMARU'] = -2
-    bonuses['BLITZ'] = -1
+    bonuses['ASH'] = -7
+    bonuses['FUZE'] = -5
+    bonuses['SLEDGE'] = -4
+    bonuses['ZOFIA'] = -4
+    bonuses['RAM'] = -3
+    bonuses['AMARU'] = -3
+    bonuses['BLITZ'] = -2
   }
   // 技术专家 → 科技类干员加成
   if (cmdGateChoice === 2) {
-    bonuses['IQ'] = -4
-    bonuses['DOKKAEBI'] = -3
-    bonuses['MIRA'] = -2
-    bonuses['TWITCH'] = -2
-    bonuses['OSA'] = -2
-    bonuses['SOLIS'] = -1
-    bonuses['JAGER'] = -1
+    bonuses['IQ'] = -7
+    bonuses['DOKKAEBI'] = -5
+    bonuses['MIRA'] = -4
+    bonuses['TWITCH'] = -4
+    bonuses['OSA'] = -3
+    bonuses['SOLIS'] = -2
+    bonuses['JAGER'] = -2
   }
   // 情报特工 → 隐匿/情报类干员加成
   if (cmdGateChoice === 4) {
-    bonuses['CAVEIRA'] = -3
-    bonuses['VIGIL'] = -2
-    bonuses['ZERO'] = -4
-    bonuses['NOKK'] = -3
-    bonuses['SOLID_SNAKE'] = -2
-    bonuses['VALKYRIE'] = -1
-    bonuses['GRIM'] = -1
+    bonuses['CAVEIRA'] = -5
+    bonuses['VIGIL'] = -4
+    bonuses['ZERO'] = -7
+    bonuses['NOKK'] = -5
+    bonuses['SOLID_SNAKE'] = -4
+    bonuses['VALKYRIE'] = -2
+    bonuses['GRIM'] = -2
   }
   // 医疗官 → 支援/治疗类干员加成
   if (cmdGateChoice === 5) {
-    bonuses['DOC'] = -4
-    bonuses['MONTAGNE'] = -2
-    bonuses['FINKA'] = -3
-    bonuses['THUNDERBIRD'] = -2
-    bonuses['ROOK'] = -2
-    bonuses['TUBARAO'] = -1
+    bonuses['DOC'] = -7
+    bonuses['MONTAGNE'] = -4
+    bonuses['FINKA'] = -5
+    bonuses['THUNDERBIRD'] = -4
+    bonuses['ROOK'] = -3
+    bonuses['TUBARAO'] = -2
   }
 
   // 超级激进玩家 → Tachanka 加成（致敬Lord）
-  if (aggressiveCount >= 18) {
-    bonuses['TACHANKA'] = (bonuses['TACHANKA'] || 0) - 3
-    bonuses['ORYX'] = (bonuses['ORYX'] || 0) - 2
-    bonuses['CLASH'] = (bonuses['CLASH'] || 0) - 1
+  if (aggressiveCount >= 14) {
+    bonuses['TACHANKA'] = (bonuses['TACHANKA'] || 0) - 5
+    bonuses['ORYX'] = (bonuses['ORYX'] || 0) - 3
+    bonuses['CLASH'] = (bonuses['CLASH'] || 0) - 2
   }
 
   // 超级佛系玩家 → Echo, Mute 加成
-  if (cautiousCount >= 16) {
-    bonuses['ECHO'] = (bonuses['ECHO'] || 0) - 3
-    bonuses['MUTE'] = (bonuses['MUTE'] || 0) - 2
-    bonuses['LESION'] = (bonuses['LESION'] || 0) - 1
+  if (cautiousCount >= 12) {
+    bonuses['ECHO'] = (bonuses['ECHO'] || 0) - 5
+    bonuses['MUTE'] = (bonuses['MUTE'] || 0) - 3
+    bonuses['LESION'] = (bonuses['LESION'] || 0) - 2
   }
 
   // 中庸之道 → 均衡/多面手干员加成
   const midCount = values.filter((v) => v === 2).length
-  if (midCount >= 18) {
-    bonuses['RAUORA'] = (bonuses['RAUORA'] || 0) - 3
-    bonuses['BUCK'] = (bonuses['BUCK'] || 0) - 2
-    bonuses['WAMAI'] = (bonuses['WAMAI'] || 0) - 1
+  if (midCount >= 14) {
+    bonuses['RAUORA'] = (bonuses['RAUORA'] || 0) - 5
+    bonuses['BUCK'] = (bonuses['BUCK'] || 0) - 3
+    bonuses['WAMAI'] = (bonuses['WAMAI'] || 0) - 2
   }
 
   return bonuses
@@ -141,7 +141,7 @@ export function calcAffinityBonuses(answers) {
  * 匹配所有类型，排序，应用特殊覆盖和彩蛋加成
  */
 export function determineResult(userLevels, dimOrder, standardTypes, specialTypes, options = {}) {
-  const { isSix = false, affinityBonuses = {}, fallbackThreshold = 55 } = options
+  const { isSix = false, isRecruit = false, affinityBonuses = {}, fallbackThreshold = 55 } = options
 
   const rankings = standardTypes.map((type) => {
     const match = matchType(userLevels, dimOrder, type.pattern)
@@ -174,7 +174,23 @@ export function determineResult(userLevels, dimOrder, standardTypes, specialType
     }
   }
 
-  // Recruit 新兵兜底
+  // Recruit 厕所题直接触发
+  if (isRecruit && recruit) {
+    return {
+      primary: {
+        ...recruit,
+        intro: recruit.trap_intro,
+        desc: recruit.trap_desc,
+        similarity: null,
+        exact: null,
+      },
+      secondary: null,
+      rankings,
+      mode: 'recruit_trap',
+    }
+  }
+
+  // Recruit 新兵兜底（自然触发）
   if (best.similarity < fallbackThreshold && recruit) {
     return {
       primary: { ...recruit, similarity: best.similarity, exact: best.exact },

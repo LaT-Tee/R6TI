@@ -326,6 +326,18 @@
         { "label": "为了任务成功，不惜做出必要的牺牲", "value": 2 }
       ],
       "behavior": "仅在cmd_gate_q1==3时出现。选择value=2时激活Six隐藏人格。"
+    },
+    {
+      "id": "recruit_trap_q",
+      "special": true,
+      "kind": "recruit_trap",
+      "text": "正在打排位，突然——你意识到自己要去上厕所。",
+      "options": [
+        { "label": "先憋着，这局打完再说", "value": 1 },
+        { "label": "开个麦请求队友保护一分钟", "value": 2 },
+        { "label": "无所谓，直接原地……", "value": 3, "recruit": true }
+      ],
+      "behavior": "随机位置出现。选择value=3（recruit=true）时直接触发RECRUIT结果，无视其他所有答题。"
     }
   ]
 }
