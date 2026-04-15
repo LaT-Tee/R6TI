@@ -184,7 +184,7 @@ export function determineResult(userLevels, dimOrder, standardTypes, specialType
         similarity: null,
         exact: null,
       },
-      secondary: null,
+      secondary: best,
       rankings,
       mode: 'recruit_trap',
     }

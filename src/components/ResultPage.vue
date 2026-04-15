@@ -16,14 +16,15 @@ const LEVEL_CLASS = { L: 'level-low', M: 'level-mid', H: 'level-high' }
 const kicker = computed(() => {
   if (props.result.mode === 'six') return '隐藏人格已激活'
   if (props.result.mode === 'fallback') return '系统强制兜底'
-  if (props.result.mode === 'recruit_trap') return '人格认定成功'
+  if (props.result.mode === 'recruit_trap') return '恭喜解锁隐藏人格'
   return '你的干员人格'
 })
 
 const primary = computed(() => props.result.primary)
 const secondary = computed(() => props.result.secondary)
 const showSecondary = computed(() =>
-  props.result.secondary && (props.result.mode === 'six' || props.result.mode === 'fallback')
+  props.result.secondary &&
+  (props.result.mode === 'six' || props.result.mode === 'fallback' || props.result.mode === 'recruit_trap')
 )
 
 const top5 = computed(() => props.result.rankings.slice(0, 5))
@@ -81,7 +82,7 @@ const sideClass = computed(() => {
       <!-- 次要匹配 -->
       <div v-if="showSecondary" class="result-secondary">
         <p class="secondary-label">
-          {{ result.mode === 'six' ? '你最接近的标准干员' : '最接近的标准干员' }}
+          {{ result.mode === 'recruit_trap' ? '普通干员里最符合的是' : result.mode === 'six' ? '你最接近的标准干员' : '最接近的标准干员' }}
         </p>
         <p class="secondary-info">
           {{ secondary.code }}（{{ secondary.cn }}）· 匹配度 {{ secondary.similarity }}%

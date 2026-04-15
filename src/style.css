@@ -102,7 +102,9 @@ body {
 
 /* ===== Question Transition ===== */
 .question-slide-enter-active,
-.question-slide-leave-active {
+.question-slide-leave-active,
+.question-slide-back-enter-active,
+.question-slide-back-leave-active {
   transition: all 0.25s ease;
 }
 
@@ -114,6 +116,16 @@ body {
 .question-slide-leave-to {
   opacity: 0;
   transform: translateX(-30px);
+}
+
+.question-slide-back-enter-from {
+  opacity: 0;
+  transform: translateX(-30px);
+}
+
+.question-slide-back-leave-to {
+  opacity: 0;
+  transform: translateX(30px);
 }
 
 /* ===== Card ===== */
@@ -364,6 +376,46 @@ body {
   font-family: var(--mono);
   flex-shrink: 0;
   margin-top: 1px;
+}
+
+.btn-option-selected {
+  border-color: var(--accent-border);
+  background: var(--accent-light);
+}
+
+.btn-option-selected .option-marker {
+  background: var(--accent);
+  color: #fff;
+}
+
+.quiz-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.btn-nav {
+  flex: 1;
+  padding: 8px 16px;
+  font-size: 0.82rem;
+  font-family: var(--mono);
+  color: var(--text-secondary);
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.btn-nav:hover:not(:disabled) {
+  border-color: var(--accent-border);
+  color: var(--text);
+}
+
+.btn-nav:disabled {
+  opacity: 0.25;
+  cursor: not-allowed;
 }
 
 /* ===== Quiz ===== */
