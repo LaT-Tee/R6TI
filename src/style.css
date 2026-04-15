@@ -233,6 +233,39 @@ body {
   color: var(--text-secondary);
 }
 
+.intro-credit a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.intro-credit a:hover {
+  text-decoration: underline;
+}
+
+.intro-credit-support {
+  margin-top: 6px;
+}
+
+.r6-ad-banner {
+  display: block;
+  margin-top: 16px;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #b8860b22, #ffd70022);
+  border: 1px solid #ffd70066;
+  border-radius: 6px;
+  color: #ffd700;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.r6-ad-banner:hover {
+  background: linear-gradient(135deg, #b8860b44, #ffd70044);
+  border-color: #ffd700aa;
+}
+
 .intro-note {
   margin-top: 8px;
   font-size: 0.75rem;
