@@ -3,7 +3,7 @@
     {
       "code": "ACE",
       "pattern": "MHH-MHH-HLH-HHM-HLL",
-      "cn": "爆破手",
+      "cn": "王牌",
       "side": "进攻方",
       "ctu": "Nighthaven",
       "intro": "需要一个大洞？找我就对了。",
@@ -16,7 +16,7 @@
     {
       "code": "AMARU",
       "pattern": "HLH-MHM-MLM-HHL-HLM",
-      "cn": "冲锋者",
+      "cn": "阿玛鲁",
       "side": "进攻方",
       "ctu": "APCA",
       "intro": "窗户？那是我的入口。",
@@ -28,7 +28,7 @@
     {
       "code": "ASH",
       "pattern": "HHH-HMH-MLH-HHH-MHM",
-      "cn": "尖刀",
+      "cn": "灰烬",
       "side": "进攻方",
       "ctu": "FBI SWAT",
       "intro": "别挡我的路。",
@@ -41,7 +41,7 @@
     {
       "code": "BLACKBEARD",
       "pattern": "HHM-HLL-MHL-HHH-MLL",
-      "cn": "冒险家",
+      "cn": "黑胡子",
       "side": "进攻方",
       "ctu": "Navy SEALs",
       "intro": "盾在，人在。",
@@ -53,7 +53,7 @@
     {
       "code": "BLITZ",
       "pattern": "HMH-HHM-MML-HHM-HLH",
-      "cn": "闪光",
+      "cn": "闪盾",
       "side": "进攻方",
       "ctu": "GSG 9",
       "intro": "闭眼吧，来不及了。",
@@ -65,7 +65,7 @@
     {
       "code": "BRAVA",
       "pattern": "MHH-MHH-HLH-LHH-MLL",
-      "cn": "正义者",
+      "cn": "巧驭",
       "side": "进攻方",
       "ctu": "COT",
       "intro": "你的设备现在听我的了。",
@@ -77,7 +77,7 @@
     {
       "code": "BUCK",
       "pattern": "HML-MLM-MLL-HHL-MLH",
-      "cn": "多面手",
+      "cn": "猎鹿人",
       "side": "进攻方",
       "ctu": "JTF2",
       "intro": "上面还是下面？我都能开。",
@@ -89,7 +89,7 @@
     {
       "code": "CAPITAO",
       "pattern": "HHH-LHH-LLH-HHH-LMM",
-      "cn": "复仇者",
+      "cn": "上尉",
       "side": "进攻方",
       "ctu": "BOPE",
       "intro": "我的眼睛虽然少了一只，但看得比你们都清楚。",
@@ -102,7 +102,7 @@
     {
       "code": "DEIMOS",
       "pattern": "HHH-LHH-LLH-HHL-MLH",
-      "cn": "叛徒",
+      "cn": "戴莫斯",
       "side": "进攻方",
       "ctu": "Redhammer",
       "intro": "Rainbow教会了我一切。现在我用它来对付他们。",
@@ -127,7 +127,7 @@
     {
       "code": "FINKA",
       "pattern": "HMH-HHM-HMH-LHM-MLL",
-      "cn": "纳米",
+      "cn": "励刃",
       "side": "进攻方",
       "ctu": "Spetsnaz",
       "intro": "肾上腺素冲击，准备好了吗？",
@@ -140,7 +140,7 @@
     {
       "code": "FLORES",
       "pattern": "MLH-LHM-HLM-MHM-HMH",
-      "cn": "火花",
+      "cn": "侠盗",
       "side": "进攻方",
       "ctu": "Redhammer",
       "intro": "我的小老鼠会找到你的。",
@@ -152,7 +152,7 @@
     {
       "code": "FUZE",
       "pattern": "HHM-LHH-LHH-HHH-LHM",
-      "cn": "集束",
+      "cn": "导火索",
       "side": "进攻方",
       "ctu": "Spetsnaz",
       "intro": "人质？什么人质？",
@@ -164,7 +164,7 @@
     {
       "code": "GLAZ",
       "pattern": "HHL-HMH-MLH-MHM-LHH",
-      "cn": "艺术家",
+      "cn": "鹰眼",
       "side": "进攻方",
       "ctu": "Spetsnaz",
       "intro": "细节……就是一切。",
@@ -176,7 +176,7 @@
     {
       "code": "GRIDLOCK",
       "pattern": "HHM-HHL-HMH-MHH-HLM",
-      "cn": "路障",
+      "cn": "钉锁",
       "side": "进攻方",
       "ctu": "SASR",
       "intro": "这片区域现在是我的了。",
@@ -189,7 +189,7 @@
     {
       "code": "GRIM",
       "pattern": "HHL-LMH-LMM-MHM-LHH",
-      "cn": "猎踪者",
+      "cn": "冥蜂",
       "side": "进攻方",
       "ctu": "STAR",
       "intro": "蜂群已经锁定你了。",
@@ -202,7 +202,7 @@
     {
       "code": "HIBANA",
       "pattern": "HHH-HHM-HMH-HHM-MHM",
-      "cn": "花火",
+      "cn": "火花",
       "side": "进攻方",
       "ctu": "SAT",
       "intro": "精准、高效、完美。",
@@ -211,7 +211,7 @@
     {
       "code": "IANA",
       "pattern": "MHH-MHH-HMH-LHM-HMH",
-      "cn": "全息",
+      "cn": "双月",
       "side": "进攻方",
       "ctu": "REU",
       "intro": "你看到的那个人不是我。",
@@ -223,7 +223,7 @@
     {
       "code": "IQ",
       "pattern": "MHH-HML-HHH-LHH-MML",
-      "cn": "分析者",
+      "cn": "IQ",
       "side": "进攻方",
       "ctu": "GSG9",
       "intro": "电子设备已定位。",
@@ -236,7 +236,7 @@
     {
       "code": "JACKAL",
       "pattern": "HHL-MLH-MMH-HHM-LHL",
-      "cn": "追踪者",
+      "cn": "豺狼",
       "side": "进攻方",
       "ctu": "GEO",
       "intro": "你的脚印暴露了一切。",
@@ -248,7 +248,7 @@
     {
       "code": "KALI",
       "pattern": "HHH-LHH-LMH-HHM-HHM",
-      "cn": "女王",
+      "cn": "迦梨",
       "side": "进攻方",
       "ctu": "Nighthaven",
       "intro": "我不为国家工作。我为效率工作。",
@@ -261,7 +261,7 @@
     {
       "code": "LION",
       "pattern": "HHH-MHL-HLH-HMM-MLL",
-      "cn": "赎罪者",
+      "cn": "雄狮",
       "side": "进攻方",
       "ctu": "GIGN",
       "intro": "所有人，停止移动。",
@@ -273,7 +273,7 @@
     {
       "code": "MAVERICK",
       "pattern": "HHM-LMH-MLH-HHH-LHH",
-      "cn": "独行者",
+      "cn": "烈马 ",
       "side": "进攻方",
       "ctu": "Delta Force",
       "intro": "我不需要大门。我自己开一个。",
@@ -286,7 +286,7 @@
     {
       "code": "MONTAGNE",
       "pattern": "HHH-HHL-HMM-LMH-MLL",
-      "cn": "铁壁",
+      "cn": "盾峰",
       "side": "进攻方",
       "ctu": "GIGN",
       "intro": "躲在我身后。",
@@ -299,7 +299,7 @@
     {
       "code": "NOKK",
       "pattern": "HHM-LMH-LMM-MHH-LHH",
-      "cn": "幽影",
+      "cn": "水妖",
       "side": "进攻方",
       "ctu": "Jaegerkorpset",
       "intro": "……",
@@ -312,7 +312,7 @@
     {
       "code": "NOMAD",
       "pattern": "HHL-LMH-MLH-HHM-MHH",
-      "cn": "游牧",
+      "cn": "探险家",
       "side": "进攻方",
       "ctu": "GIGR",
       "intro": "世界那么大，每个战场都想去看看。",
@@ -324,7 +324,7 @@
     {
       "code": "OSA",
       "pattern": "MHH-MHH-HMH-LHH-HLL",
-      "cn": "造物者",
+      "cn": "女皇蜂",
       "side": "进攻方",
       "ctu": "Nighthaven",
       "intro": "我的盾牌会保护我们所有人。",
@@ -337,7 +337,7 @@
     {
       "code": "RAM",
       "pattern": "HHH-MHM-MHH-HMH-MLM",
-      "cn": "破壁者",
+      "cn": "攻城槌",
       "side": "进攻方",
       "ctu": "35th Commando",
       "intro": "墙挡不住我。",
@@ -349,7 +349,7 @@
     {
       "code": "RAUORA",
       "pattern": "MHH-HLM-MHM-LMH-HML",
-      "cn": "均衡者",
+      "cn": "救兵",
       "side": "进攻方",
       "ctu": "NZSAS",
       "intro": "门已经打开了，轮到你们了。",
@@ -361,7 +361,7 @@
     {
       "code": "SENS",
       "pattern": "MLL-LHM-MLL-LLL-HLH",
-      "cn": "光幕",
+      "cn": "炫视",
       "side": "进攻方",
       "ctu": "GSUTR",
       "intro": "光墙已部署，放心走。",
@@ -374,7 +374,7 @@
     {
       "code": "SLEDGE",
       "pattern": "HMH-HHL-MHH-HHM-MLL",
-      "cn": "大锤",
+      "cn": "重锤",
       "side": "进攻方",
       "ctu": "SAS",
       "intro": "没什么是一锤子解决不了的。",
@@ -387,7 +387,7 @@
     {
       "code": "SOLID_SNAKE",
       "pattern": "HHH-LMH-MHH-HHM-LHM",
-      "cn": "传说",
+      "cn": "固蛇",
       "side": "进攻方",
       "ctu": "FOXHOUND",
       "intro": "让我来处理。",
@@ -401,7 +401,7 @@
     {
       "code": "STRIKER",
       "pattern": "HHM-HHH-LLH-HHM-HLM",
-      "cn": "新兵·攻",
+      "cn": "先锋",
       "side": "进攻方",
       "ctu": "Rainbow",
       "intro": "进攻开始。",
@@ -413,7 +413,7 @@
     {
       "code": "THATCHER",
       "pattern": "HHL-MLH-LMM-HHM-LHL",
-      "cn": "老兵",
+      "cn": "磁暴",
       "side": "进攻方",
       "ctu": "SAS",
       "intro": "GPS卫星？无人机？信号干扰器？……去你的高科技。",
@@ -426,7 +426,7 @@
     {
       "code": "THERMITE",
       "pattern": "HHM-HMM-MHM-HHH-HML",
-      "cn": "开拓者",
+      "cn": "铝热",
       "side": "进攻方",
       "ctu": "FBI SWAT",
       "intro": "一个真正的大洞马上就来。",
@@ -439,7 +439,7 @@
     {
       "code": "TWITCH",
       "pattern": "MHH-HHH-HHH-MHH-MLL",
-      "cn": "电子眼",
+      "cn": "电掣",
       "side": "进攻方",
       "ctu": "GIGN",
       "intro": "让我的无人机先进去。",
@@ -452,7 +452,7 @@
     {
       "code": "YING",
       "pattern": "MHH-HHL-HMH-LHH-MLL",
-      "cn": "闪光弹",
+      "cn": "莹",
       "side": "进攻方",
       "ctu": "SDU",
       "intro": "闪光弹出去了，冲！",
@@ -465,7 +465,7 @@
     {
       "code": "ZERO",
       "pattern": "HHH-HMH-HMM-HHH-LHH",
-      "cn": "传奇",
+      "cn": "零",
       "side": "进攻方",
       "ctu": "ROS",
       "intro": "我已经看到了所有人。",
@@ -479,7 +479,7 @@
     {
       "code": "ZOFIA",
       "pattern": "HHM-HHM-MHH-HHM-MML",
-      "cn": "不倒者",
+      "cn": "索菲亚",
       "side": "进攻方",
       "ctu": "GROM",
       "intro": "你是你自己的敌人。",
@@ -493,7 +493,7 @@
     {
       "code": "ALIBI",
       "pattern": "HHH-LHH-MLM-HMH-HLH",
-      "cn": "骗术师",
+      "cn": "幻影",
       "side": "防守方",
       "ctu": "GIS",
       "intro": "你确定打的是我本人吗？",
@@ -505,7 +505,7 @@
     {
       "code": "ARUNI",
       "pattern": "HHM-MHM-HHH-LMH-MLL",
-      "cn": "守门人",
+      "cn": "炎曦",
       "side": "防守方",
       "ctu": "Nighthaven",
       "intro": "进来之前，先过我这关。",
@@ -518,7 +518,7 @@
     {
       "code": "AZAMI",
       "pattern": "HHM-MHL-HHH-LHH-MLL",
-      "cn": "壁花",
+      "cn": "蓟刃",
       "side": "防守方",
       "ctu": "Unaffiliated",
       "intro": "裂缝？什么裂缝？",
@@ -530,7 +530,7 @@
     {
       "code": "BANDIT",
       "pattern": "HHM-LHH-LLM-HHM-LHH",
-      "cn": "卧底",
+      "cn": "电枭",
       "side": "防守方",
       "ctu": "GSG9",
       "intro": "我卧底的那几年……不提了。",
@@ -555,7 +555,7 @@
     {
       "code": "CAVEIRA",
       "pattern": "HHM-LMH-LLM-HHM-LHH",
-      "cn": "幽灵",
+      "cn": "魅影",
       "side": "防守方",
       "ctu": "BOPE",
       "intro": "告诉我他们的位置……",
@@ -593,7 +593,7 @@
     {
       "code": "DOC",
       "pattern": "MHL-MHL-HMH-LHH-HLL",
-      "cn": "守护者",
+      "cn": "医生",
       "side": "防守方",
       "ctu": "GIGN",
       "intro": "别动，我来治你。",
@@ -606,7 +606,7 @@
     {
       "code": "ECHO",
       "pattern": "MHL-MLH-LML-MML-LHM",
-      "cn": "旁观者",
+      "cn": "回声",
       "side": "防守方",
       "ctu": "SAT",
       "intro": "让Yokai去做吧，我躺着就好。",
@@ -618,7 +618,7 @@
     {
       "code": "ELA",
       "pattern": "MLH-LHH-LLM-MLL-HLH",
-      "cn": "叛逆者",
+      "cn": "艾拉",
       "side": "防守方",
       "ctu": "GROM",
       "intro": "我不需要你的认可。",
@@ -630,7 +630,7 @@
     {
       "code": "FENRIR",
       "pattern": "MHL-MLH-LMM-LMH-LHM",
-      "cn": "陷阱师",
+      "cn": "芬里尔",
       "side": "防守方",
       "ctu": "Nighthaven",
       "intro": "它们闻到你了。",
@@ -643,7 +643,7 @@
     {
       "code": "FROST",
       "pattern": "HHM-MML-LHM-LHH-MLL",
-      "cn": "猎夹",
+      "cn": "霜华",
       "side": "防守方",
       "ctu": "JTF2",
       "intro": "小心脚下。",
@@ -655,7 +655,7 @@
     {
       "code": "GOYO",
       "pattern": "HMH-LHL-LLH-HMM-MLH",
-      "cn": "火种",
+      "cn": "火山",
       "side": "防守方",
       "ctu": "FES",
       "intro": "火焰会替我说话。",
@@ -668,7 +668,7 @@
     {
       "code": "JAGER",
       "pattern": "MHL-LHL-LHM-LMH-LHL",
-      "cn": "工匠鸟",
+      "cn": "猎网",
       "side": "防守方",
       "ctu": "GSG 9",
       "intro": "他们说这不可能。他们错了。",
@@ -693,7 +693,7 @@
     {
       "code": "KAPKAN",
       "pattern": "HHL-MLH-LLM-MML-LHM",
-      "cn": "猎手",
+      "cn": "诡雷",
       "side": "防守方",
       "ctu": "Spetsnaz",
       "intro": "陷阱已经设好了。",
@@ -717,7 +717,7 @@
     {
       "code": "MAESTRO",
       "pattern": "HMH-HHL-HMM-HMM-HLH",
-      "cn": "指挥家",
+      "cn": "教官",
       "side": "防守方",
       "ctu": "GIS",
       "intro": "看戏的感觉太棒了！",
@@ -743,7 +743,7 @@
     {
       "code": "MIRA",
       "pattern": "HHH-HHM-MHH-HMM-HLM",
-      "cn": "工匠",
+      "cn": "玄镜",
       "side": "防守方",
       "ctu": "GEO",
       "intro": "透过这面镜子，我能看到一切。",
@@ -756,7 +756,7 @@
     {
       "code": "MOZZIE",
       "pattern": "MLH-MHM-MLH-MLH-HMH",
-      "cn": "捣蛋鬼",
+      "cn": "骇虫",
       "side": "防守方",
       "ctu": "SASR",
       "intro": "你的无人机现在是我的了！",
@@ -768,7 +768,7 @@
     {
       "code": "MUTE",
       "pattern": "LHL-LMH-LHL-LHH-LHL",
-      "cn": "沉默者",
+      "cn": "无声",
       "side": "防守方",
       "ctu": "SAS",
       "intro": "……",
@@ -794,7 +794,7 @@
     {
       "code": "PULSE",
       "pattern": "MHL-HLL-HLM-LHH-HLM",
-      "cn": "心跳",
+      "cn": "脉冲",
       "side": "防守方",
       "ctu": "FBI SWAT",
       "intro": "我能听到你的心跳。",
@@ -806,7 +806,7 @@
     {
       "code": "ROOK",
       "pattern": "MMH-HHL-HHM-LMM-MLL",
-      "cn": "铠甲",
+      "cn": "铁甲",
       "side": "防守方",
       "ctu": "GIGN",
       "intro": "穿上它，能救你一命。",
@@ -818,7 +818,7 @@
     {
       "code": "SENTRY",
       "pattern": "MHH-HHL-LHH-LHM-HHM",
-      "cn": "新兵·守",
+      "cn": "哨兵",
       "side": "防守方",
       "ctu": "Rainbow",
       "intro": "防线就绪。",
@@ -830,7 +830,7 @@
     {
       "code": "SKOPOS",
       "pattern": "HHH-MHH-HLH-LHM-MHL",
-      "cn": "哨兵",
+      "cn": "双傀",
       "side": "防守方",
       "ctu": "EKAM",
       "intro": "一发入魂。",
@@ -843,7 +843,7 @@
     {
       "code": "SMOKE",
       "pattern": "HHL-MMH-LLM-HHM-MHH",
-      "cn": "毒师",
+      "cn": "毒雾",
       "side": "防守方",
       "ctu": "SAS",
       "intro": "我知道毒气罐里是什么……但我不打算告诉你。",
@@ -856,7 +856,7 @@
     {
       "code": "SOLIS",
       "pattern": "MHH-MHH-HLH-LHH-HHL",
-      "cn": "扫描者",
+      "cn": "逐光",
       "side": "防守方",
       "ctu": "AFEAU",
       "intro": "我看到了所有信号。",
@@ -868,7 +868,7 @@
     {
       "code": "TACHANKA",
       "pattern": "HHH-HMH-MMH-HMM-HHL",
-      "cn": "战神",
+      "cn": "战车",
       "side": "防守方",
       "ctu": "Spetsnaz",
       "intro": "{-}7",
@@ -919,7 +919,7 @@
     {
       "code": "VALKYRIE",
       "pattern": "HHM-HHM-LHH-LHM-HHH",
-      "cn": "鹰眼",
+      "cn": "女武神",
       "side": "防守方",
       "ctu": "Navy SEALs",
       "intro": "摄像头已部署，我什么都看得到。",
@@ -932,7 +932,7 @@
     {
       "code": "VIGIL",
       "pattern": "LMH-LLH-LHL-LMM-MHM",
-      "cn": "隐者",
+      "cn":"隐者",
       "side": "防守方",
       "ctu": "707th SMB",
       "intro": "……",
@@ -945,7 +945,7 @@
     {
       "code": "WAMAI",
       "pattern": "HHM-LHH-MLH-MHL-HHL",
-      "cn": "磁力",
+      "cn": "漩涡",
       "side": "防守方",
       "ctu": "Nighthaven",
       "intro": "让我把它吸过来。",

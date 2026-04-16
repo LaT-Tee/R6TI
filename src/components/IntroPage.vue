@@ -47,8 +47,8 @@ defineEmits(['start'])
 
       <p class="intro-credit">基于 SBTI 算法 · 灵感来自哔哩哔哩<a href="https://space.bilibili.com/448719" target="_blank" rel="noopener">@正义的伙伴阿</a> 的节目效果</p>
       <p class="intro-credit intro-credit-support">支持 <a href="https://space.bilibili.com/3493297907567491" target="_blank" rel="noopener">彩虹六号攻势</a>喵，支持彩虹六号攻势谢谢喵</p>
-      <a href="https://r6.qq.com/" target="_blank" rel="noopener" class="r6-ad-banner">
-        彩虹六号攻势 · 现已开放预约！
+      <a href="https://r6.qq.com/cp/R62026410activity/" target="_blank" rel="noopener" class="r6-ad-banner">
+        彩虹六号攻势 · 现已开放首测先遣资格招募！
       </a>
       <p class="intro-note">{{ config.display.funNote }}</p>
     </div>
