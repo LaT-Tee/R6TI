@@ -568,7 +568,7 @@
     {
       "code": "CLASH",
       "pattern": "HMH-HHM-HLH-HMH-HLH",
-      "cn": "冲突",
+      "cn": "镇暴",
       "side": "防守方",
       "ctu": "MPS",
       "intro": "退后！我说了退后！",
@@ -781,7 +781,7 @@
     {
       "code": "ORYX",
       "pattern": "HLH-LHH-LLH-HHL-LHM",
-      "cn": "蛮牛",
+      "cn": "剑羚",
       "side": "防守方",
       "ctu": "Unaffiliated",
       "intro": "墙？什么墙？",
